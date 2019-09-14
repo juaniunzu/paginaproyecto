@@ -114,10 +114,10 @@
                 <a class="nav-item nav-link ml-4 mr-4 text-warning" href="#contacto">contacto</a>
             </div>
             <div class="d-flex flex-row justify-content-around">
-                <a class="btn fa fa-spotify text-success" href="https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"></a>
-                <a class="btn fa fa-youtube text-danger" href="https://www.youtube.com/channel/UCEuOwB9vSL1oPKGNdONB4ig"></a>
-                <a class="btn fa fa-instagram text-info" href="https://www.instagram.com/chilipeppers/"></a>
-                <a class="btn fa fa-facebook text-primary" href="https://es-la.facebook.com/ChiliPeppers"></a>
+                <a class="btn fa fa-spotify text-success fa-2x ml-2" href="https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"></a>
+                <a class="btn fa fa-youtube text-danger fa-2x ml-2" href="https://www.youtube.com/channel/UCEuOwB9vSL1oPKGNdONB4ig"></a>
+                <a class="btn fa fa-instagram text-info fa-2x ml-2" href="https://www.instagram.com/chilipeppers/"></a>
+                <a class="btn fa fa-facebook text-primary fa-2x ml-2" href="https://es-la.facebook.com/ChiliPeppers"></a>
             </div>
         </div>
     </nav>
@@ -594,7 +594,7 @@
 
     <section class="seccion-media">
         <div class="container">
-            <h1 class="text-center text-white">MEDIA</h1>
+            <h1 class="text-center text-white titulo">MEDIA</h1>
             <div class="row">
                 <iframe class="col-6 mb-4 fade" src="https://www.youtube.com/embed/watch?v=KRgjAfj0MCA" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <iframe class="col-6 mb-4 fade" src="https://www.youtube.com/embed/watch?v=txTqtm58AqM" frameborder="0" width="560" height="315"></iframe>
@@ -613,6 +613,7 @@
     <!-- noticias -->
 
     <section class="seccion-noticias">
+        <h1 class="text-center text-white titulo">NOTICIAS</h1>
         <div class="container">
             <div class="card-deck">
                 <div class="card border-warning">
@@ -682,17 +683,42 @@
     <!-- fin noticias -->
 
     <!-- contacto -->
-    <div class="parallax secciones shop text-center" id="contacto">
-        <h1>contacto</h1>
-        <ul>
-            <li>formulario de contacto</li>
-        </ul>
-    </div>
+
+    <section class="seccion-contacto">
+        <form class="container">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Tu nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">E-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@ejemplo.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Dejanos tu mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Quiero recibir novedades en mi mail
+                </label>
+        </form>
+    </section>
+
     <!-- fin contacto -->
 
     <!-- footer -->
-    <footer>
-        <p class="text-center">footer aca</p>
+    <footer class="bg-secondary">
+        <div class="container">
+            <div class="d-flex flex-row justify-content-around pt-4 pb-4">
+                <a class="btn fa fa-spotify text-success fa-2x ml-2" href="https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"></a>
+                <a class="btn fa fa-youtube text-danger fa-2x ml-2" href="https://www.youtube.com/channel/UCEuOwB9vSL1oPKGNdONB4ig"></a>
+                <a class="btn fa fa-instagram text-info fa-2x ml-2" href="https://www.instagram.com/chilipeppers/"></a>
+                <a class="btn fa fa-facebook text-primary fa-2x ml-2" href="https://es-la.facebook.com/ChiliPeppers"></a>
+            </div>
+            <div class="footer-info"></div>
+        </div>
     </footer>
     <!-- fin footer -->
 
