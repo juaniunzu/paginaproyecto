@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <style>
+        .slider {
+            background: url("fotos/imagenes banda/getaway/images.jpeg");
+            height: 100vh; /*altura relativa a la pantalla. con vw es para el ancho. el num es como un porcentaje de 1 a 100*/
+            background-size: cover;
+            background-position: center;
+        }
+    </style> -->
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One|Bowlby+One+SC&display=swap" rel="stylesheet">
+    <title>RHCP</title>
+</head>
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+    <!-- home -->
+
+    <!-- <div id="videoDiv" style="height: 100%" class="mb-0">
+        <div id="videoBlock">
+            <section class="p-0 d-flex justify-content-center align-items-start slider container-fluid section-banner section-banner-m-video section-banner-t-video-2">
+                <video class="video-home" muted webkit-playsinline loop autoplay preload="none" src="video para home/rhcp video home.mp4" type="video/mp4" >
+                </video>
+            </section>
+            <div id="videoMessage">
+                <h1>en septiembre</h1>
+                <h2>se viene el libro</h2>
+                <h3> del flea</h3>
+                <p class="videoClick">
+                    <a href="#">Link al libro</a>
+                </p>
+                <div class="container">
+                    <div class="row">
+                        <img class="" src="fotos/fondos secciones/libro flea.jpg" alt="" style="width: 200px;height: 300px;">
+                        <div class="col">acid for the children</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <section class="seccion-home">
+        <div class="d-flex justify-content-around">
+            <div>
+                <h4 class="text-white text-decoration-none align-self-end" style="position:absolute;bottom:280px;right:30px;">Preventa exclusiva <a class="text-decoration-none text-secondary" href="https://www.amazon.com/Acid-Children-Memoir-Flea/dp/1455530530">aquí</a></h4>
+            </div>
+                <img src="fotos/fondos secciones/libro flea.jpg" alt="" class="align-self-end fade" style="height: 250px;position:absolute;bottom:30px;right:100px;">
+            </div>
+    </section>
+    
+    <section class="parafondo" id="home">
+        <div class="containerhome">
+                <div class="boxhome">
+                    <img src="fotos/fotos home/anthony fondo home.png">
+                </div>
+                <div class="boxhome">
+                    <img src="fotos/fotos home/flea fondo home.png">
+                </div>
+                <div class="boxhome">
+                    <img src="fotos/fotos home/josh fondo home.png">
+                </div>
+                <div class="boxhome">
+                    <img src="fotos/fotos home/chad fondo home.png">
+                </div>
+            </div>
+    </section>
+
+        
+
+    <!-- fin home -->
+
+    <!-- menu superior fijo -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top text-uppercase">
+        <a href="#home"><img class="d-inline-block align-top w-25 h-25" src="https://upload.wikimedia.org/wikipedia/commons/3/33/RHCP_logo.svg" alt=""> </a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <div class="navbar-nav mr-auto ml-auto text-center">
+                <a class="nav-item nav-link mr-4 text-warning" href="#shows">shows</a>
+                <a class="nav-item nav-link ml-4 mr-4 text-danger" href="#discografia">discografia</a>
+                <a class="nav-item nav-link ml-4 mr-4 text-warning" href="#media">media</a>
+                <a class="nav-item nav-link ml-4 mr-4 text-danger" href="#noticias">noticias</a>
+                <a class="nav-item nav-link ml-4 mr-4 text-warning" href="#contacto">contacto</a>
+            </div>
+            <div class="d-flex flex-row justify-content-around">
+                <a class="btn fa fa-spotify text-success" href="https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"></a>
+                <a class="btn fa fa-youtube text-danger" href="https://www.youtube.com/channel/UCEuOwB9vSL1oPKGNdONB4ig"></a>
+                <a class="btn fa fa-instagram text-info" href="https://www.instagram.com/chilipeppers/"></a>
+                <a class="btn fa fa-facebook text-primary" href="https://es-la.facebook.com/ChiliPeppers"></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- fin menu superior fijo -->
+
+    <!-- shows -->
+
+    <!-- <section class="seccion-shows p-0 m-0">
+        <h1 class="text-center text-white" id="shows">proximos shows</h1>
+        <div class="row">
+          <div class="col">
+            <div class="card fade">
+                <div class="card-header">
+                    <strong class="text-success">Fecha/fecha/fecha, lugar/lugar, pais</strong> 
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Nombre del festival</h5>
+                    <p class="card-text">En el marco de tal festival, la banda se presenta por tal vez en tal lado re piolita</p>
+                    <a href="#" class="btn btn-secondary float-right">Compra entradas</a>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card fade">
+                <div class="card-header">
+                    Fecha2/fecha2/fecha2, lugar/lugar, pais
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Nombre del festival 2</h5>
+                    <p class="card-text">En el marco de tal festival, la banda se presenta por tal vez en tal lado re piolita</p>
+                    <a href="#" class="btn btn-secondary float-right">Compra entradas</a>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card fade">
+                <div class="card-header">
+                    Fecha2/fecha2/fecha2, lugar/lugar, pais
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Nombre del festival 2</h5>
+                    <p class="card-text">En el marco de tal festival, la banda se presenta por tal vez en tal lado re piolita</p>
+                    <a href="#" class="btn btn-secondary float-right">Compra entradas</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card fade">
+                    <div class="card-header">
+                        <strong class="text-success">Fecha/fecha/fecha, lugar/lugar, pais</strong> 
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre del festival</h5>
+                        <p class="card-text">En el marco de tal festival, la banda se presenta por tal vez en tal lado re piolita</p>
+                        <a href="#" class="btn btn-secondary float-right">Compra entradas</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card fade">
+                    <div class="card-header">
+                        Fecha2/fecha2/fecha2, lugar/lugar, pais
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre del festival 2</h5>
+                        <p class="card-text">En el marco de tal festival, la banda se presenta por tal vez en tal lado re piolita</p>
+                        <a href="#" class="btn btn-secondary float-right">Compra entradas</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card fade">
+                    <div class="card-header">
+                        Fecha2/fecha2/fecha2, lugar/lugar, pais
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre del festival 2</h5>
+                        <p class="card-text">En el marco de tal festival, la banda se presenta por tal vez en tal lado re piolita</p>
+                        <a href="#" class="btn btn-secondary float-right">Compra entradas</a>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section> -->
+
+    <section class="seccion-shows" id="shows">
+        <h1 class="text-center text-white">PROXIMOS SHOWS</h1>
+        <div class="container">
+            <div class="row">
+                <h2 class="text-left text-white">TOUR SUDAMERICA</h2>
+            </div>
+            <div class="row fade mt-3 bg-secondary fecha">
+                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+                    <div><h1 class="text-center">21</h1></div>
+                    <div><h4 class="text-center">JUL</h4></div>
+                </div>
+                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                    <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
+                </div>
+                <div class="text-white col-5 border border-left-0 border-right-0">
+                    <h5 class="mt-4 text-danger" >LOLLAPALOOZA FESTIVAL</h5>
+                    <h6 class="text-warning">Región Metropolitana, Santiago de Chile</h6>
+                </div>
+                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                    <h4 class="text-white mt-4">CHILE</h4>
+                </div>
+                <div class="text-warning col border border-left-0 border-right-0">
+                    <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
+                    <h4>17:00</h4>
+                </div>
+                <div class="col border rounded-right border-left-0"> 
+                    <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
+                </div>
+            </div>
+            <div class="row fade mt-3 bg-secondary fecha">
+                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+                    <div><h1 class="text-center">23</h1></div>
+                    <div><h4 class="text-center">JUL</h4></div>
+                </div>
+                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                    <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
+                </div>
+                <div class="text-white col-5 border border-left-0 border-right-0">
+                    <h5 class="mt-4 text-danger" >PEPSI MUSIC FESTIVAL</h5>
+                    <h6 class="text-warning">Hipódromo de Palermo, CABA</h6>
+                </div>
+                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                    <h4 class="text-white mt-4">ARGENTINA</h4>
+                </div>
+                <div class="text-warning col border border-left-0 border-right-0">
+                    <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
+                    <h4>19:00</h4>
+                </div>
+                <div class="col border rounded-right border-left-0"> 
+                    <button type="button" class="btn btn-light btn-sm m-3 mt-4" disabled>Agotado</button>
+                </div>
+            </div>
+            <div class="row fade mt-3 bg-secondary fecha">
+                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+                    <div><h1 class="text-center">25</h1></div>
+                    <div><h4 class="text-center">JUL</h4></div>
+                </div>
+                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                    <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
+                </div>
+                <div class="text-white col-5 border border-left-0 border-right-0">
+                    <h5 class="mt-4 text-danger" >MOVISTAR FREE MUSIC FESTIVAL</h5>
+                    <h6 class="text-warning">Estadio Mundialista, Córdoba</h6>
+                </div>
+                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                    <h4 class="text-white mt-4">ARGENTINA</h4>
+                </div>
+                <div class="text-warning col border border-left-0 border-right-0">
+                    <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
+                    <h4>17:00</h4>
+                </div>
+                <div class="col border rounded-right border-left-0"> 
+                    <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
+                </div>
+            </div>
+            <div class="row fade mt-3 bg-secondary fecha">
+                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+                    <div><h1 class="text-center">29</h1></div>
+                    <div><h4 class="text-center">JUL</h4></div>
+                </div>
+                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                    <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
+                </div>
+                <div class="text-white col-5 border border-left-0 border-right-0">
+                    <h5 class="mt-4 text-danger" >SOUNDHEARTS FESTIVAL</h5>
+                    <h6 class="text-warning">Allianz Parque, Sao Paulo</h6>
+                </div>
+                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                    <h4 class="text-white mt-4">BRASIL</h4>
+                </div>
+                <div class="text-warning col border border-left-0 border-right-0">
+                    <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
+                    <h4>20:00</h4>
+                </div>
+                <div class="col border rounded-right border-left-0"> 
+                    <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
+                </div>
+            </div>
+            <div class="row fade mt-3 bg-secondary fecha">
+                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+                    <div><h1 class="text-center">31</h1></div>
+                    <div><h4 class="text-center">JUL</h4></div>
+                </div>
+                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                    <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
+                </div>
+                <div class="text-white col-5 border border-left-0 border-right-0">
+                    <h5 class="mt-4 text-danger" >SOUNDHEARTS FESTIVAL</h5>
+                    <h6 class="text-warning">Estadio Maracana, Rio de Janeiro</h6>
+                </div>
+                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                    <h4 class="text-white mt-4">BRASIL</h4>
+                </div>
+                <div class="text-warning col border border-left-0 border-right-0">
+                    <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
+                    <h4>17:00</h4>
+                </div>
+                <div class="col border rounded-right border-left-0"> 
+                    <button type="button" class="btn btn-light btn-sm m-3 mt-4" disabled>Agotado</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <h2 class="text-left text-white mt-5">TOUR EUROPA</h2>
+            </div>
+            <div class="row fade mt-3 bg-secondary fecha">
+                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+                    <div><h1 class="text-center">14</h1></div>
+                    <div><h4 class="text-center">AGO</h4></div>
+                </div>
+                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                    <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
+                </div>
+                <div class="text-white col-5 border border-left-0 border-right-0">
+                    <h5 class="mt-4 text-danger" >ROCKIN FESTIVAL</h5>
+                    <h6 class="text-warning">Hyde Park, Londres</h6>
+                </div>
+                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                    <h4 class="text-white mt-4">INGLATERRA</h4>
+                </div>
+                <div class="text-warning col border border-left-0 border-right-0">
+                    <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
+                    <h4>17:00</h4>
+                </div>
+                <div class="col border rounded-right border-left-0"> 
+                    <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
+                </div>
+            </div>
+            <div class="row fade mt-3 bg-secondary fecha">
+                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+                    <div><h1 class="text-center">17</h1></div>
+                    <div><h4 class="text-center">AGO</h4></div>
+                </div>
+                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                    <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
+                </div>
+                <div class="text-white col-5 border border-left-0 border-right-0">
+                    <h5 class="mt-4 text-danger" >NEVERENDING FESTIVAL</h5>
+                    <h6 class="text-warning">Slane Castle, Slane</h6>
+                </div>
+                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                    <h4 class="text-white mt-4">IRLANDA</h4>
+                </div>
+                <div class="text-warning col border border-left-0 border-right-0">
+                    <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
+                    <h3>16:00</h3>
+                </div>
+                <div class="col border rounded-right border-left-0"> 
+                    <button type="button" class="btn btn-light btn-sm m-3 mt-4" disabled>Agotado</button>
+                </div>
+            </div>
+            <div class="row fade mt-3 bg-secondary fecha">
+                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+                    <div><h1 class="text-center">27</h1></div>
+                    <div><h4 class="text-center">AGO</h4></div>
+                </div>
+                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                    <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
+                </div>
+                <div class="text-white col-5 border border-left-0 border-right-0">
+                    <h5 class="mt-4 text-danger" >HEINEKEN ROCK FESTIVAL</h5>
+                    <h6 class="text-warning">Museo Guggenheim, Bilbao</h6>
+                </div>
+                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                    <h3 class="text-white mt-4">ESPAÑA</h3>
+                </div>
+                <div class="text-warning col border border-left-0 border-right-0">
+                    <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
+                    <h4>21:00</h4>
+                </div>
+                <div class="col border rounded-right border-left-0"> 
+                    <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
+                </div>
+            </div>
+            <div class="row fade mt-3 bg-secondary fecha">
+                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+                    <div><h1 class="text-center">29</h1></div>
+                    <div><h4 class="text-center">AGO</h4></div>
+                </div>
+                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                    <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
+                </div>
+                <div class="text-white col-5 border border-left-0 border-right-0">
+                    <h5 class="mt-4 text-danger" >ROCK IN ROMA FESTIVAL</h5>
+                    <h6 class="text-warning">Ippodromo Delle Capannelle, Roma</h6>
+                </div>
+                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                    <h3 class="text-white mt-4">ITALIA</h3>
+                </div>
+                <div class="text-warning col border border-left-0 border-right-0">
+                    <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
+                    <h4>20:00</h4>
+                </div>
+                <div class="col border rounded-right border-left-0"> 
+                    <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
+                </div>
+            </div>
+            <div class="row fade mt-3 bg-secondary fecha">
+                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+                    <div><h1 class="text-center">31</h1></div>
+                    <div><h4 class="text-center">AGO</h4></div>
+                </div>
+                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                    <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
+                </div>
+                <div class="text-white col-5 border border-left-0 border-right-0">
+                    <h5 class="mt-4 text-danger" >FRANCE ROCK FESTIVAL</h5>
+                    <h6 class="text-warning">Allianz Riviera, Niza</h6>
+                </div>
+                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                    <h3 class="text-white mt-4">FRANCIA</h3>
+                </div>
+                <div class="text-warning col border border-left-0 border-right-0">
+                    <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
+                    <h4>17:00</h4>
+                </div>
+                <div class="col border rounded-right border-left-0"> 
+                    <button type="button" class="btn btn-light btn-sm m-3 mt-4" >Entradas</button>
+                </div>
+            </div>
+            <span class="p-3"></span>
+        </div>
+
+
+    </section>
+
+
+    <!-- fin shows -->
+
+    <!-- discografia -->
+
+    <section class="seccion-discografia">
+            <h1 class="text-center text-white" id="discografia" >DISCOGRAFIA</h1>
+            <div class="container mt-40">
+                <div class="row mt-30">
+                    <!-- TRHCP -->
+                    <div class="col-md-4 col-sm-6 mt-2 fade">
+                        <div class="box16">
+                                <img src="fotos/discos/banda/1 rhcp.jpg" alt="img12"/>
+                                <div class="box-content">
+                                <h3 class="title text-warning">THE<strong class="text-danger">RED</strong>HOT<strong class="text-danger">CHILI</strong>PEPPERS</h3>
+                                <span class="post">1984</span>
+                                <ul class="social">
+                                    <li><a href="https://open.spotify.com/album/5QxFTj8ar3blXVyVEo2rxD"><i class="fa fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FS -->
+                    <div class="col-md-4 col-sm-6 mt-2 fade">
+                        <div class="box16">
+                                <img src="fotos/discos/banda/2 the umpp.jpg" alt="img12"/>
+                                <div class="box-content">
+                                    <h3 class="title text-warning">FREAKY<strong class="text-danger">STYLEY</strong></h3>
+                                    <span class="post">1985</span>
+                                    <ul class="social">
+                                    <li><a href="https://open.spotify.com/album/10Oqhoq2akSJnurJOPk8xT"><i class="fa fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TUMPP -->
+                    <div class="col-md-4 col-sm-6 mt-2 fade">
+                        <div class="box16">
+                                <img src="fotos/discos/banda/3 freaky styley.jpg" alt="img12"/>
+                                <div class="box-content">
+                                    <h3 class="title text-warning"><strong class="text-danger">UPLIFT</strong>MOFO<strong class="text-danger">PARTY</strong>PLAN</h3>
+                                    <span class="post">1987</span>
+                                    <ul class="social">
+                                    <li><a href="https://open.spotify.com/album/3rHJQrfEcBeSaLPuLwKR6F"><i class="fa fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-30">
+                    <!-- MM -->
+                    <div class="col-md-4 col-sm-6 mt-2 fade">
+                        <div class="box16">
+                                <img src="fotos/discos/banda/4 mothers milk.jpg" alt="img12"/>
+                                <div class="box-content">
+                                <h3 class="title text-warning">MOTHER'S<strong class="text-danger">MILK</strong></h3>
+                                <span class="post">1989</span>
+                                <ul class="social">
+                                    <li><a href="https://open.spotify.com/album/1oOkcBu5bgkUzZTvKD1m8z"><i class="fa fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BSSM -->
+                    <div class="col-md-4 col-sm-6 mt-2 fade">
+                        <div class="box16">
+                                <img src="fotos/discos/banda/5 bssm.jpg" alt="img12"/>
+                                <div class="box-content">
+                                        <h3 class="title text-warning">BLOOD<strong class="text-danger">SUGAR</strong>SEX<strong class="text-danger">MAGIK</strong></h3>
+                                        <span class="post">1991</span>
+                                        <ul class="social">
+                                    <li><a href="https://open.spotify.com/album/30Perjew8HyGkdSmqguYyg"><i class="fa fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- WH -->
+                    <div class="col-md-4 col-sm-6 mt-2 fade">
+                        <div class="box16">
+                            <img src="fotos/discos/banda/what hits dps de bssm.jpg" alt="img12"/>
+                            <div class="box-content">
+                                <h3 class="title text-warning">WHAT<strong class="text-danger">HITS?</strong></h3>
+                                <span class="post">1992</span>
+                                <ul class="social">
+                                    <li><a href="https://open.spotify.com/album/2tPDuNTakdxcbfhHSi7Rc6"><i class="fa fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-30">
+                    <!-- OHM -->
+                    <div class="col-md-4 col-sm-6 mt-2 fade">
+                        <div class="box16">
+                                <img src="fotos/discos/banda/6 ohm.jpg" alt="img12"/>
+                                <div class="box-content">
+                                <h3 class="title text-warning">ONE<strong class="text-danger">HOT</strong>MINUTE</h3>
+                                <span class="post">1995</span>
+                                <ul class="social">
+                                    <li><a href="https://open.spotify.com/album/2rQ135imvelvp89D8eEZOi"><i class="fa fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CALIF -->
+                    <div class="col-md-4 col-sm-6 mt-2 fade">
+                        <div class="box16">
+                                <img src="fotos/discos/banda/7 californication.jpg" alt="img12"/>
+                                <div class="box-content">
+                                <h3 class="title text-warning">CALIFORNICATION</h3>
+                                <span class="post">1999</span>
+                                <ul class="social">
+                                    <li><a href="https://open.spotify.com/album/2Y9IRtehByVkegoD7TcLfi"><i class="fa fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BTW -->
+                    <div class="col-md-4 col-sm-6 mt-2 fade">
+                        <div class="box16">
+                            <img src="fotos/discos/banda/8 by the way.jpg" alt="img12"/>
+                            <div class="box-content">
+                                    <h3 class="title text-warning">BY<strong class="text-danger">THE</strong>WAY</h3>
+                                    <span class="post">2002</span>
+                                <ul class="social">
+                                    <li><a href="https://open.spotify.com/album/6deiaArbeoqp1xPEGdEKp1"><i class="fa fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-30 pb-4">
+                    <!-- STADARC -->
+                    <div class="col-md-4 col-sm-6 mt-2 fade">
+                        <div class="box16">
+                                <img src="fotos/discos/banda/9 stadium arcadium.jpg" alt="img12"/>
+                                <div class="box-content">
+                                <h3 class="title text-warning">STADIUM<strong class="text-danger">ARCADIUM</strong></h3>
+                                <span class="post">2006</span>
+                                <ul class="social">
+                                    <li><a href="https://open.spotify.com/album/7xl50xr9NDkd3i2kBbzsNZ"><i class="fa fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- IWY -->
+                    <div class="col-md-4 col-sm-6 mt-2 fade">
+                        <div class="box16">
+                                <img src="fotos/discos/banda/10 im with you.jpg" alt="img12"/>
+                                <div class="box-content">
+                                    <h3 class="title text-warning">I'M<strong class="text-danger">WITH</strong>YOU</h3>
+                                    <span class="post">2011</span>
+                                    <ul class="social">
+                                    <li><a href="https://open.spotify.com/album/5wZtSIvijWCMc1vlPFqAyB"><i class="fa fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TGAWAY -->
+                    <div class="col-md-4 col-sm-6 mt-2 fade">
+                        <div class="box16">
+                            <img src="fotos/discos/banda/11 the getaway.jpg" alt="img12"/>
+                            <div class="box-content">
+                                <h3 class="title text-warning">THE<strong class="text-danger">GETAWAY</strong></h3>
+                                <span class="post">2016</span>
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-spotify"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- fin discografia -->
+
+    <!-- media -->
+
+    <section class="seccion-media">
+        <div class="container">
+            <h1 class="text-center text-white">MEDIA</h1>
+            <div class="row">
+                <iframe class="col-6 mb-4 fade" src="https://www.youtube.com/embed/watch?v=KRgjAfj0MCA" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="col-6 mb-4 fade" src="https://www.youtube.com/embed/watch?v=txTqtm58AqM" frameborder="0" width="560" height="315"></iframe>
+            </div>
+            <div class="row">
+                <iframe class="col-6 mb-4 fade" src="https://www.youtube.com/embed/watch?v=HI-8CVixZ5o" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="col-6 mb-4 fade" src="https://www.youtube.com/embed/watch?v=I2XfVml6o24" frameborder="0" width="560" height="315"></iframe>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- fin media -->
+
+    <!-- noticias -->
+
+    <section class="seccion-noticias">
+        <div class="container">
+            <div class="card-deck">
+                <div class="card border-warning">
+                    <img src="fotos/imagenes shows/imagen show 1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-secondary">Card title</h5>
+                    <p class="card-text text-warning">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <img src="fotos/imagenes shows/imagen show 1.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src="fotos/imagenes shows/imagen show 1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <img src="fotos/imagenes shows/imagen show 1.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                    <img src="fotos/imagenes shows/imagen show 1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <img src="fotos/imagenes shows/imagen show 1.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- fin noticias -->
+
+    <!-- contacto -->
+    <div class="parallax secciones shop text-center" id="contacto">
+        <h1>contacto</h1>
+        <ul>
+            <li>formulario de contacto</li>
+        </ul>
+    </div>
+    <!-- fin contacto -->
+
+    <!-- footer -->
+    <footer>
+        <p class="text-center">footer aca</p>
+    </footer>
+    <!-- fin footer -->
+
+</body>
+</html>
