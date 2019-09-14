@@ -187,6 +187,10 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+.footer-info {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .fade:not(.show) {
     opacity: .6;
 }
