@@ -20,6 +20,7 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Bowlby+One|Bowlby+One+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600i,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>RHCP</title>
 </head>
 
@@ -36,8 +37,8 @@
 
     <!-- menu superior fijo -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top text-uppercase">
-        <a href="#home" class="text-danger text-decoration-none">HOME</a>
+    <nav class="container-fluid navbar navbar-expand-lg navbar-collapse navbar-dark bg-secondary fixed-top text-uppercase">
+        <a href="#home" class="text-white text-decoration-none">HOME</a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <div class="navbar-nav mr-auto ml-auto text-center">
                 <a class="nav-item nav-link mr-4 text-warning" href="#shows">shows</a>
@@ -47,10 +48,10 @@
                 <a class="nav-item nav-link ml-4 mr-4 text-warning" href="#contacto">contacto</a>
             </div>
             <div class="d-flex flex-row justify-content-around">
-                <a class="btn fa fa-spotify text-danger fa-2x ml-2" href="https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"></a>
-                <a class="btn fa fa-youtube text-danger fa-2x ml-2" href="https://www.youtube.com/channel/UCEuOwB9vSL1oPKGNdONB4ig"></a>
-                <a class="btn fa fa-instagram text-danger fa-2x ml-2" href="https://www.instagram.com/chilipeppers/"></a>
-                <a class="btn fa fa-facebook text-danger fa-2x ml-2" href="https://es-la.facebook.com/ChiliPeppers"></a>
+                <a class="btn fa fa-spotify text-white fa-2x ml-2" href="https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"></a>
+                <a class="btn fa fa-youtube text-white fa-2x ml-2" href="https://www.youtube.com/channel/UCEuOwB9vSL1oPKGNdONB4ig"></a>
+                <a class="btn fa fa-instagram text-white fa-2x ml-2" href="https://www.instagram.com/chilipeppers/"></a>
+                <a class="btn fa fa-facebook text-white fa-2x ml-2" href="https://es-la.facebook.com/ChiliPeppers"></a>
             </div>
         </div>
     </nav>
@@ -64,7 +65,7 @@
             <div class="boxhome box1">
                 <img src="fotos/fotos home/anthony fondo home.png">
                 <div class="box-content">
-                    <h3 class="title text-warning tipografia">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure officiis blanditiis consectetur soluta vel. Iusto officiis alias, rerum odit et ipsam tempora voluptas, deleniti iste, mollitia exercitationem odio non ut!</h3>
+                    <h3 class="title text-warning tipografia"><i>Recuéstame. Oleadas de agraciado placer descienden, no hay medidas para el amor. Tus curvas se doblan con sutil esplendor.  </i> </h3>
                     <ul class="social">
                         <li class="tipografia2 text-danger">ANTHONY</li>
                     </ul>
@@ -73,7 +74,7 @@
             <div class="boxhome box1">
                 <img src="fotos/fotos home/flea fondo home.png">
                 <div class="box-content">
-                    <h3 class="title text-warning tipografia">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure officiis blanditiis consectetur soluta vel. Iusto officiis alias, rerum odit et ipsam tempora voluptas, deleniti iste, mollitia exercitationem odio non ut!</h3>
+                    <h3 class="title text-warning tipografia"><i>Parado en un rincón de la civilización, veo un tiempo y un lugar para mí. En un mundo donde no me puedo hallar, la gente, fría y malvada, me da escalofríos.</i> </h3>
                     <ul class="social">
                         <li class="tipografia2 text-danger">FLEA</li>
                     </ul>
@@ -82,7 +83,7 @@
             <div class="boxhome box1">
                 <img src="fotos/fotos home/josh fondo home.png">
                 <div class="box-content">
-                    <h3 class="title text-warning tipografia">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure officiis blanditiis consectetur soluta vel. Iusto officiis alias, rerum odit et ipsam tempora voluptas, deleniti iste, mollitia exercitationem odio non ut!</h3>
+                    <h3 class="title text-warning tipografia"><i>Otra estrella solitaria con quien escapar, irse muy lejos, y rendirse al instinto, el amante que nunca te pertenece.</i> </h3>
                     <ul class="social">
                         <li class="tipografia2 text-danger">JOSH</li>
                     </ul>
@@ -91,7 +92,7 @@
             <div class="boxhome box1">
                 <img src="fotos/fotos home/chad fondo home.png">
                 <div class="box-content">
-                    <h3 class="title text-warning tipografia">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure officiis blanditiis consectetur soluta vel. Iusto officiis alias, rerum odit et ipsam tempora voluptas, deleniti iste, mollitia exercitationem odio non ut!</h3>
+                    <h3 class="title text-warning tipografia"> <i>Destrui tu televisor. Es momento de tomar esta decisión. Es una historia ya contada, y ya está pasando de moda.</i></h3>
                     <ul class="social">
                         <li class="tipografia2 text-danger">CHAD</li>
                     </ul>
@@ -104,14 +105,15 @@
 
     <!-- shows -->
 
-    <section class="seccion-shows" id="shows">
+    <!-- REHACER CADA ROW CON LAS OPCIONES RESPONSIVE (VER GRID SYSTEM - MIX AND MATCH) -->
+    <section class="seccion-shows container-fluid" id="shows">
         <h1 class="text-center text-white" style="padding-top: 100px; margin-bottom: 100px">PROXIMOS SHOWS</h1>
         <div class="container">
             <div class="row">
                 <h2 class="text-left text-white">TOUR SUDAMERICA</h2>
             </div>
-            <div class="row fade mt-3 bg-secondary fecha">
-                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+                <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">21</h1>
                     </div>
@@ -119,26 +121,26 @@
                         <h4 class="text-center">JUL</h4>
                     </div>
                 </div>
-                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                <div class="col border marcador border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
                     <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
                 </div>
-                <div class="text-white col-5 border border-left-0 border-right-0">
+                <div class="text-white lugar col-5 border border-left-0 border-right-0">
                     <h5 class="mt-4 text-danger">LOLLAPALOOZA FESTIVAL</h5>
                     <h6 class="text-warning">Región Metropolitana, Santiago de Chile</h6>
                 </div>
-                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                <div class="text-body pais col-2 text-center border border-left-0 border-right-0">
                     <h4 class="text-white mt-4">CHILE</h4>
                 </div>
-                <div class="text-warning col border border-left-0 border-right-0">
+                <div class="text-warning hora col border border-left-0 border-right-0">
                     <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
                     <h4>17:00</h4>
                 </div>
-                <div class="col border rounded-right border-left-0">
+                <div class="col border entradas rounded-right border-left-0">
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary fecha">
-                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+                <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">23</h1>
                     </div>
@@ -146,26 +148,26 @@
                         <h4 class="text-center">JUL</h4>
                     </div>
                 </div>
-                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                <div class="col border marcador border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
                     <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
                 </div>
-                <div class="text-white col-5 border border-left-0 border-right-0">
+                <div class="text-white lugar col-5 border border-left-0 border-right-0">
                     <h5 class="mt-4 text-danger">PEPSI MUSIC FESTIVAL</h5>
                     <h6 class="text-warning">Hipódromo de Palermo, CABA</h6>
                 </div>
-                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                <div class="text-body pais col-2 text-center border border-left-0 border-right-0">
                     <h4 class="text-white mt-4">ARGENTINA</h4>
                 </div>
-                <div class="text-warning col border border-left-0 border-right-0">
+                <div class="text-warning hora col border border-left-0 border-right-0">
                     <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
                     <h4>19:00</h4>
                 </div>
-                <div class="col border rounded-right border-left-0">
+                <div class="col border entradas rounded-right border-left-0">
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4" disabled>Agotado</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary fecha">
-                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+                <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">25</h1>
                     </div>
@@ -173,26 +175,26 @@
                         <h4 class="text-center">JUL</h4>
                     </div>
                 </div>
-                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                <div class="col border marcador border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
                     <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
                 </div>
-                <div class="text-white col-5 border border-left-0 border-right-0">
+                <div class="text-white col-5 lugar border border-left-0 border-right-0">
                     <h5 class="mt-4 text-danger">MOVISTAR FREE MUSIC FESTIVAL</h5>
                     <h6 class="text-warning">Estadio Mundialista, Córdoba</h6>
                 </div>
-                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                <div class="text-body pais col-2 text-center border border-left-0 border-right-0">
                     <h4 class="text-white mt-4">ARGENTINA</h4>
                 </div>
-                <div class="text-warning col border border-left-0 border-right-0">
+                <div class="text-warning hora col border border-left-0 border-right-0">
                     <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
                     <h4>17:00</h4>
                 </div>
-                <div class="col border rounded-right border-left-0">
+                <div class="col border entradas rounded-right border-left-0">
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary fecha">
-                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+                <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">29</h1>
                     </div>
@@ -200,26 +202,26 @@
                         <h4 class="text-center">JUL</h4>
                     </div>
                 </div>
-                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                <div class="col border marcador border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
                     <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
                 </div>
-                <div class="text-white col-5 border border-left-0 border-right-0">
+                <div class="text-white lugar col-5 border border-left-0 border-right-0">
                     <h5 class="mt-4 text-danger">SOUNDHEARTS FESTIVAL</h5>
                     <h6 class="text-warning">Allianz Parque, Sao Paulo</h6>
                 </div>
-                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                <div class="text-body pais col-2 text-center border border-left-0 border-right-0">
                     <h4 class="text-white mt-4">BRASIL</h4>
                 </div>
-                <div class="text-warning col border border-left-0 border-right-0">
+                <div class="text-warning hora col border border-left-0 border-right-0">
                     <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
                     <h4>20:00</h4>
                 </div>
-                <div class="col border rounded-right border-left-0">
+                <div class="col border entradas rounded-right border-left-0">
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary fecha">
-                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+                <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">31</h1>
                     </div>
@@ -227,21 +229,21 @@
                         <h4 class="text-center">JUL</h4>
                     </div>
                 </div>
-                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                <div class="col border marcador border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
                     <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
                 </div>
-                <div class="text-white col-5 border border-left-0 border-right-0">
+                <div class="text-white lugar col-5 border border-left-0 border-right-0">
                     <h5 class="mt-4 text-danger">SOUNDHEARTS FESTIVAL</h5>
                     <h6 class="text-warning">Estadio Maracana, Rio de Janeiro</h6>
                 </div>
-                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                <div class="text-body col-2 pais text-center border border-left-0 border-right-0">
                     <h4 class="text-white mt-4">BRASIL</h4>
                 </div>
-                <div class="text-warning col border border-left-0 border-right-0">
+                <div class="text-warning hora col border border-left-0 border-right-0">
                     <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
                     <h4>17:00</h4>
                 </div>
-                <div class="col border rounded-right border-left-0">
+                <div class="col border entradas rounded-right border-left-0">
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4" disabled>Agotado</button>
                 </div>
             </div>
@@ -249,8 +251,8 @@
             <div class="row">
                 <h2 class="text-left text-white mt-5">TOUR EUROPA</h2>
             </div>
-            <div class="row fade mt-3 bg-secondary fecha">
-                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+                <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">14</h1>
                     </div>
@@ -258,26 +260,26 @@
                         <h4 class="text-center">AGO</h4>
                     </div>
                 </div>
-                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                <div class="col border marcador border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
                     <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
                 </div>
-                <div class="text-white col-5 border border-left-0 border-right-0">
+                <div class="text-white col-5 lugar border border-left-0 border-right-0">
                     <h5 class="mt-4 text-danger">ROCKIN FESTIVAL</h5>
                     <h6 class="text-warning">Hyde Park, Londres</h6>
                 </div>
-                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                <div class="text-body col-2 pais text-center border border-left-0 border-right-0">
                     <h4 class="text-white mt-4">INGLATERRA</h4>
                 </div>
-                <div class="text-warning col border border-left-0 border-right-0">
+                <div class="text-warning col hora border border-left-0 border-right-0">
                     <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
                     <h4>17:00</h4>
                 </div>
-                <div class="col border rounded-right border-left-0">
+                <div class="col border entradas rounded-right border-left-0">
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary fecha">
-                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+                <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">17</h1>
                     </div>
@@ -285,26 +287,26 @@
                         <h4 class="text-center">AGO</h4>
                     </div>
                 </div>
-                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                <div class="col border marcador border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
                     <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
                 </div>
-                <div class="text-white col-5 border border-left-0 border-right-0">
+                <div class="text-white lugar col-5 border border-left-0 border-right-0">
                     <h5 class="mt-4 text-danger">NEVERENDING FESTIVAL</h5>
                     <h6 class="text-warning">Slane Castle, Slane</h6>
                 </div>
-                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                <div class="text-body pais col-2 text-center border border-left-0 border-right-0">
                     <h4 class="text-white mt-4">IRLANDA</h4>
                 </div>
-                <div class="text-warning col border border-left-0 border-right-0">
+                <div class="text-warning hora col border border-left-0 border-right-0">
                     <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
                     <h3>16:00</h3>
                 </div>
-                <div class="col border rounded-right border-left-0">
+                <div class="col border entradas rounded-right border-left-0">
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4" disabled>Agotado</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary fecha">
-                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+                <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">27</h1>
                     </div>
@@ -312,26 +314,26 @@
                         <h4 class="text-center">AGO</h4>
                     </div>
                 </div>
-                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                <div class="col border marcador border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
                     <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
                 </div>
-                <div class="text-white col-5 border border-left-0 border-right-0">
+                <div class="text-white lugar col-5 border border-left-0 border-right-0">
                     <h5 class="mt-4 text-danger">HEINEKEN ROCK FESTIVAL</h5>
                     <h6 class="text-warning">Museo Guggenheim, Bilbao</h6>
                 </div>
-                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                <div class="text-body pais col-2 text-center border border-left-0 border-right-0">
                     <h3 class="text-white mt-4">ESPAÑA</h3>
                 </div>
-                <div class="text-warning col border border-left-0 border-right-0">
+                <div class="text-warning hora col border border-left-0 border-right-0">
                     <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
                     <h4>21:00</h4>
                 </div>
-                <div class="col border rounded-right border-left-0">
+                <div class="col border entradas rounded-right border-left-0">
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary fecha">
-                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+                <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">29</h1>
                     </div>
@@ -339,26 +341,26 @@
                         <h4 class="text-center">AGO</h4>
                     </div>
                 </div>
-                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                <div class="col border marcador border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
                     <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
                 </div>
-                <div class="text-white col-5 border border-left-0 border-right-0">
+                <div class="text-white col-5 lugar border border-left-0 border-right-0">
                     <h5 class="mt-4 text-danger">ROCK IN ROMA FESTIVAL</h5>
                     <h6 class="text-warning">Ippodromo Delle Capannelle, Roma</h6>
                 </div>
-                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                <div class="text-body pais col-2 text-center border border-left-0 border-right-0">
                     <h3 class="text-white mt-4">ITALIA</h3>
                 </div>
-                <div class="text-warning col border border-left-0 border-right-0">
+                <div class="text-warning hora col border border-left-0 border-right-0">
                     <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
                     <h4>20:00</h4>
                 </div>
-                <div class="col border rounded-right border-left-0">
+                <div class="col border entradas rounded-right border-left-0">
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary fecha" style="margin-bottom: 100px">
-                <div class="text-danger col border rounded-left border-right-0 bg-warning">
+            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap" style="margin-bottom: 100px">
+                <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">31</h1>
                     </div>
@@ -366,28 +368,26 @@
                         <h4 class="text-center">AGO</h4>
                     </div>
                 </div>
-                <div class="col border border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
+                <div class="col border marcador border-left-0 border-right-0" style="color: white; padding-left: 60px; padding-top: 20px">
                     <div class="fa fa-map-marker fa-2x align-center text-warning mt-2 "></div>
                 </div>
-                <div class="text-white col-5 border border-left-0 border-right-0">
+                <div class="text-white lugar col-5 border border-left-0 border-right-0">
                     <h5 class="mt-4 text-danger">FRANCE ROCK FESTIVAL</h5>
                     <h6 class="text-warning">Allianz Riviera, Niza</h6>
                 </div>
-                <div class="text-body col-2 text-center border border-left-0 border-right-0">
+                <div class="text-body pais col-2 text-center border border-left-0 border-right-0">
                     <h3 class="text-white mt-4">FRANCIA</h3>
                 </div>
-                <div class="text-warning col border border-left-0 border-right-0">
+                <div class="text-warning hora col border border-left-0 border-right-0">
                     <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
                     <h4>17:00</h4>
                 </div>
-                <div class="col border rounded-right border-left-0">
+                <div class="col border entradas rounded-right border-left-0">
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
                 </div>
             </div>
             <span class="p-3"></span>
         </div>
-
-
     </section>
 
 
@@ -395,7 +395,7 @@
 
     <!-- discografia -->
 
-    <section class="seccion-discografia" id="discografia">
+    <section class="seccion-discografia container-fluid" id="discografia">
         <h1 class="text-center text-white" id="discografia" style="padding-top: 100px; margin-bottom: 100px">DISCOGRAFIA</h1>
         <div class="container mt-40">
             <div class="row mt-30">
@@ -569,16 +569,16 @@
 
     <!-- media -->
 
-    <section class="seccion-media" id="media">
+    <section class="seccion-media container-fluid" id="media">
         <div class="container">
             <h1 class="text-center text-white titulo" style="padding-top: 100px; margin-bottom: 100px">MEDIA</h1>
             <div class="row">
-                <iframe class="col-6 mb-4 fade" src="https://www.youtube.com/embed/watch?v=KRgjAfj0MCA" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="col-6 mb-4 fade" src="https://www.youtube.com/embed/watch?v=txTqtm58AqM" frameborder="0" width="560" height="315"></iframe>
+                <iframe class="col-6 mb-4" src="https://www.youtube.com/embed/Q0oIoR9mLwc" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="col-6 mb-4" src="https://www.youtube.com/embed/txTqtm58AqM" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="row" style="padding-bottom:100px;">
-                <iframe class="col-6 mb-4 fade" src="https://www.youtube.com/embed/watch?v=HI-8CVixZ5o" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="col-6 mb-4 fade" src="https://www.youtube.com/embed/watch?v=I2XfVml6o24" frameborder="0" width="560" height="315"></iframe>
+                <iframe class="col-6 mb-4" src="https://www.youtube.com/embed/HI-8CVixZ5o" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="col-6 mb-4" src="https://www.youtube.com/embed/I2XfVml6o24" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
@@ -589,7 +589,8 @@
 
     <!-- noticias -->
 
-    <section class="seccion-noticias" id="noticias">
+    <!-- VER CARD COLUMNS PARA EL RESPONSIVE, LA 2DA CARD -->
+    <section class="seccion-noticias container-fluid" id="noticias">
         <h1 class="text-center text-white titulo" style="padding-top: 100px; margin-bottom: 100px">NOTICIAS</h1>
         <div class="container">
             <div class="card-deck">
@@ -661,7 +662,7 @@
 
     <!-- contacto -->
 
-    <section class="seccion-contacto" id="contacto">
+    <section class="seccion-contacto container-fluid" id="contacto">
         <h1 class="text-center text-white titulo" style="padding-top: 100px; margin-bottom: 100px">CONTACTO</h1>
         <form class="container p-0">
             <div class="form-group">
@@ -688,28 +689,29 @@
     <!-- fin contacto -->
 
     <!-- footer -->
-    <footer class="bg-secondary">
+    <footer class="bg-secondary container-fluid">
         <div class="container">
-            <div class="d-flex flex-row justify-content-around pt-4 pb-4">
+            <div class="d-flex flex-row pt-4 pb-4 justify-content-center">
                 <a class="btn fa fa-spotify text-white fa-lg ml-2" href="https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5"></a>
                 <a class="btn fa fa-youtube text-white fa-lg ml-2" href="https://www.youtube.com/channel/UCEuOwB9vSL1oPKGNdONB4ig"></a>
                 <a class="btn fa fa-instagram text-white fa-lg ml-2" href="https://www.instagram.com/chilipeppers/"></a>
                 <a class="btn fa fa-facebook text-white fa-lg ml-2" href="https://es-la.facebook.com/ChiliPeppers"></a>
             </div>
-            <div class="footer-info d-flex flex-row justify-content-around">
-                <div class="">
+            <div class="footer-info d-flex flex-row justify-content-around pt-4">
+                <div class="text-white">
                     <h6>Terminos y condiciones</h6>
                 </div>
-                <div class="">
+                <div class="text-white">
                     <h6>Acerca de</h6>
                 </div>
-                <div class="">
+                <div class="text-white">
                     <h6>Soporte</h6>
                 </div>
-                <div class="">
+                <div class="text-white">
                     <h6>Politica de cookies</h6>
                 </div>
             </div>
+            <div class="info footer-info d-flex flex-row justify-content-around m-0 pt-3"><h6>Diseñado en 2019 por Juan Ignacio Unzurrunzaga</h6></div>
         </div>
     </footer>
     <!-- fin footer -->
