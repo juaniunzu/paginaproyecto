@@ -21,6 +21,7 @@
     <link href="https://fonts.googleapis.com/css?family=Bowlby+One|Bowlby+One+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600i,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico"/>
     <title>RHCP</title>
 </head>
 
@@ -38,8 +39,11 @@
     <!-- menu superior fijo -->
 
     <nav class="container-fluid navbar navbar-expand-lg navbar-collapse navbar-dark bg-secondary fixed-top text-uppercase">
-        <a href="#home" class="text-white text-decoration-none">HOME</a>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a href="#home" class="navbar-brand text-white text-decoration-none"><img src="fotos/faviconeditado.ico" alt="">HOME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mr-auto ml-auto text-center">
                 <a class="nav-item nav-link mr-4 text-warning" href="#shows">shows</a>
                 <a class="nav-item nav-link ml-4 mr-4 text-warning" href="#discografia">discografia</a>
@@ -65,7 +69,7 @@
             <div class="boxhome box1">
                 <img src="fotos/fotos home/anthony fondo home.png">
                 <div class="box-content">
-                    <h3 class="title text-warning tipografia"><i>Recuéstame. Oleadas de agraciado placer descienden, no hay medidas para el amor. Tus curvas se doblan con sutil esplendor.  </i> </h3>
+                    <h3 class="title text-warning tipografia"><img src="fotos/iconos/mic.png" alt=""> + <img src="fotos/iconos/pluma.png" alt=""> + <img src="fotos/iconos/guitar.png" alt=""></h3>
                     <ul class="social">
                         <li class="tipografia2 text-danger">ANTHONY</li>
                     </ul>
@@ -74,7 +78,7 @@
             <div class="boxhome box1">
                 <img src="fotos/fotos home/flea fondo home.png">
                 <div class="box-content">
-                    <h3 class="title text-warning tipografia"><i>Parado en un rincón de la civilización, veo un tiempo y un lugar para mí. En un mundo donde no me puedo hallar, la gente, fría y malvada, me da escalofríos.</i> </h3>
+                    <h3 class="title text-warning tipografia"><img src="fotos/iconos/bass.png" alt=""> + <img src="fotos/iconos/mic.png" alt=""> + <img src="fotos/iconos/piano.png" alt=""> + <img src="fotos/iconos/synth.png" alt=""> + <img src="fotos/iconos/trumpet.png" alt=""></h3>
                     <ul class="social">
                         <li class="tipografia2 text-danger">FLEA</li>
                     </ul>
@@ -83,7 +87,7 @@
             <div class="boxhome box1">
                 <img src="fotos/fotos home/josh fondo home.png">
                 <div class="box-content">
-                    <h3 class="title text-warning tipografia"><i>Otra estrella solitaria con quien escapar, irse muy lejos, y rendirse al instinto, el amante que nunca te pertenece.</i> </h3>
+                    <h3 class="title text-warning tipografia"><img src="fotos/iconos/guitar.png" alt=""> + <img src="fotos/iconos/synth.png" alt=""> + <img src="fotos/iconos/pluma.png" alt=""></h3>
                     <ul class="social">
                         <li class="tipografia2 text-danger">JOSH</li>
                     </ul>
@@ -92,7 +96,7 @@
             <div class="boxhome box1">
                 <img src="fotos/fotos home/chad fondo home.png">
                 <div class="box-content">
-                    <h3 class="title text-warning tipografia"> <i>Destrui tu televisor. Es momento de tomar esta decisión. Es una historia ya contada, y ya está pasando de moda.</i></h3>
+                    <h3 class="title text-warning tipografia"><img src="fotos/iconos/drum.png" alt=""> + <img src="fotos/iconos/piano.png" alt=""></h3>
                     <ul class="social">
                         <li class="tipografia2 text-danger">CHAD</li>
                     </ul>
@@ -105,14 +109,13 @@
 
     <!-- shows -->
 
-    <!-- REHACER CADA ROW CON LAS OPCIONES RESPONSIVE (VER GRID SYSTEM - MIX AND MATCH) -->
     <section class="seccion-shows container-fluid" id="shows">
-        <h1 class="text-center text-white" style="padding-top: 100px; margin-bottom: 100px">PROXIMOS SHOWS</h1>
+        <h1 class="text-center text-white" style="padding-top: 100px; margin-bottom: 100px"><img src="fotos/faviconeditado.ico" alt="">PROXIMOS SHOWS</h1>
         <div class="container">
             <div class="row">
                 <h2 class="text-left text-white">TOUR SUDAMERICA</h2>
             </div>
-            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+            <div class="row mt-3 bg-secondary d-flex position-relative flex-wrap">
                 <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">21</h1>
@@ -139,7 +142,7 @@
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+            <div class="row mt-3 bg-secondary d-flex position-relative flex-wrap">
                 <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">23</h1>
@@ -166,7 +169,7 @@
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4" disabled>Agotado</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+            <div class="row mt-3 bg-secondary d-flex position-relative flex-wrap">
                 <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">25</h1>
@@ -193,7 +196,7 @@
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+            <div class="row mt-3 bg-secondary d-flex position-relative flex-wrap">
                 <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">29</h1>
@@ -220,7 +223,7 @@
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+            <div class="row mt-3 bg-secondary d-flex position-relative flex-wrap">
                 <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">31</h1>
@@ -251,7 +254,7 @@
             <div class="row">
                 <h2 class="text-left text-white mt-5">TOUR EUROPA</h2>
             </div>
-            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+            <div class="row mt-3 bg-secondary d-flex position-relative flex-wrap">
                 <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">14</h1>
@@ -268,7 +271,7 @@
                     <h6 class="text-warning">Hyde Park, Londres</h6>
                 </div>
                 <div class="text-body col-2 pais text-center border border-left-0 border-right-0">
-                    <h4 class="text-white mt-4">INGLATERRA</h4>
+                    <h4 class="text-white mt-4">GB</h4>
                 </div>
                 <div class="text-warning col hora border border-left-0 border-right-0">
                     <i class="fa fa-clock-o fa-lg text-white pl-3 ml-3 mt-4"></i>
@@ -278,7 +281,7 @@
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+            <div class="row mt-3 bg-secondary d-flex position-relative flex-wrap">
                 <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">17</h1>
@@ -305,7 +308,7 @@
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4" disabled>Agotado</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+            <div class="row mt-3 bg-secondary d-flex position-relative flex-wrap">
                 <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">27</h1>
@@ -332,7 +335,7 @@
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap">
+            <div class="row mt-3 bg-secondary d-flex position-relative flex-wrap">
                 <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">29</h1>
@@ -359,7 +362,7 @@
                     <button type="button" class="btn btn-light btn-sm m-3 mt-4">Entradas</button>
                 </div>
             </div>
-            <div class="row fade mt-3 bg-secondary d-flex position-relative flex-wrap" style="margin-bottom: 100px">
+            <div class="row mt-3 bg-secondary d-flex position-relative flex-wrap" style="margin-bottom: 100px">
                 <div class="text-danger dia-fecha col border rounded-left border-right-0 bg-warning">
                     <div>
                         <h1 class="text-center">31</h1>
@@ -396,7 +399,7 @@
     <!-- discografia -->
 
     <section class="seccion-discografia container-fluid" id="discografia">
-        <h1 class="text-center text-white" id="discografia" style="padding-top: 100px; margin-bottom: 100px">DISCOGRAFIA</h1>
+        <h1 class="text-center text-white" id="discografia" style="padding-top: 100px; margin-bottom: 100px"><img src="fotos/faviconeditado.ico" alt="">DISCOGRAFIA</h1>
         <div class="container mt-40">
             <div class="row mt-30">
                 <!-- TRHCP -->
@@ -571,14 +574,14 @@
 
     <section class="seccion-media container-fluid" id="media">
         <div class="container">
-            <h1 class="text-center text-white titulo" style="padding-top: 100px; margin-bottom: 100px">MEDIA</h1>
+            <h1 class="text-center text-white titulo" style="padding-top: 100px; margin-bottom: 100px"><img src="fotos/faviconeditado.ico" alt="">MEDIA</h1>
             <div class="row">
-                <iframe class="col-6 mb-4" src="https://www.youtube.com/embed/Q0oIoR9mLwc" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="col-6 mb-4" src="https://www.youtube.com/embed/txTqtm58AqM" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="col-sm mb-4" src="https://www.youtube.com/embed/Q0oIoR9mLwc" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="col-sm mb-4" src="https://www.youtube.com/embed/txTqtm58AqM" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="row" style="padding-bottom:100px;">
-                <iframe class="col-6 mb-4" src="https://www.youtube.com/embed/HI-8CVixZ5o" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="col-6 mb-4" src="https://www.youtube.com/embed/I2XfVml6o24" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="col-sm mb-4" src="https://www.youtube.com/embed/HI-8CVixZ5o" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="col-sm mb-4" src="https://www.youtube.com/embed/I2XfVml6o24" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
@@ -589,16 +592,15 @@
 
     <!-- noticias -->
 
-    <!-- VER CARD COLUMNS PARA EL RESPONSIVE, LA 2DA CARD -->
     <section class="seccion-noticias container-fluid" id="noticias">
-        <h1 class="text-center text-white titulo" style="padding-top: 100px; margin-bottom: 100px">NOTICIAS</h1>
+        <h1 class="text-center text-white titulo" style="padding-top: 100px; margin-bottom: 100px"><img src="fotos/faviconeditado.ico" alt="">NOTICIAS</h1>
         <div class="container">
-            <div class="card-deck">
+            <div class="card-columns">
                 <div class="card border-warning">
-                    <img src="fotos/imagenes shows/imagen show 1.jpg" class="card-img-top" alt="...">
+                    <img src="fotos/fotos noticias/acid for the children.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-secondary"> <i>Acid for the children</i> ya en preventa</h5>
-                        <p class="card-text text-warning"><b><i>“Veo los libros como cosas sagradas, y al escribir mi historia, hice todo lo posible para mostrar cómo me formé”</i></b>. Palabras textuales de Flea, en el marco de la presentación sus memorias que saldrán a la venta el 27
+                        <p class="card-text text-warning"><b><i>“Veo los libros como cosas sagradas, y al escribir mi historia, hice todo lo posible para mostrar cómo me formé”</i></b>. Palabras textuales de Flea, en el marco de la presentación de sus memorias que saldrán a la venta el 27
                             de noviembre.</p>
                         <p><a href="#">mas info</a></p>
                         <p class="card-text"><small class="text-secondary text-decoration-none"><a href="#" class="text-decoration-none text-secondary"><i>flea</i></a><a href="#" class="text-decoration-none text-secondary"><i> libro</i></a><a href="#" class="text-decoration-none text-secondary"><i> memorias</i></a></small></p>
@@ -610,10 +612,10 @@
                         <p class="card-text text-danger">Se confirmaron las fechas en la que la banda estará presentándose en diversos escenarios de Sudamérica. Para ver los detalles y adquirir entradas, entra <a href="#shows">aquí</a></p>
                         <p class="card-text"><small class="text-muted"> <a href="#" class="text-italic text-decoration-none text-secondary"><i>sudamerica</i></a><a href="#" class="text-italic text-decoration-none text-secondary"><i> tour</i></a><a href="#" class="text-italic text-decoration-none text-secondary"><i> gira</i></a></small></p>
                     </div>
-                    <img src="fotos/imagenes shows/imagen show 1.jpg" class="card-img-top" alt="...">
+                    <img src="fotos/fotos noticias/showsudamerica.jpeg" class="card-img-top" alt="engira">
                 </div>
                 <div class="card border-warning">
-                    <img src="fotos/imagenes shows/imagen show 1.jpg" class="card-img-top" alt="...">
+                    <img src="fotos/fotos noticias/californication 20th.png" class="card-img-top" alt="californication">
                     <div class="card-body">
                         <h5 class="card-title text-secondary">Edición especial de <i>Californication: 20 años</i></h5>
                         <p class="card-text text-warning">En el marco del 20 aniversario de <i>Californication</i>, se lanza una edición remasterizada que contará con material inédito de estudio, lados B y una entrevista exclusiva a Rick Rubin</p>
@@ -621,22 +623,20 @@
                         <p class="card-text"><small class="text-muted"> <a href="#" class="text-italic text-decoration-none text-secondary"><i>californication</i></a><a href="#" class="text-italic text-decoration-none text-secondary"><i> rick rubin</i></a><a href="#" class="text-italic text-decoration-none text-secondary"><i> aniversario</i></a></small></p>
                     </div>
                 </div>
-            </div>
-            <div class="card-deck">
                 <div class="card border-danger">
                     <div class="card-body">
-                        <h5 class="card-title text-secondary"><i>VicFirth® Contest</i>: extensión de plazos de presentación</h5>
-                        <p class="card-text text-danger">Se extienden los plazos de presentación de material para el concurso de bateristas patrocinado por Chad Smith, con el apoyo de VicFirth®. Los videos deben ser subidos a su <a href="https://www.instagram.com/chadsmithofficial/">instagram</a>.</p>
+                        <h5 class="card-title text-secondary"><i>Sabian® Contest</i>: extensión de plazos de presentación</h5>
+                        <p class="card-text text-danger">Se extienden los plazos de presentación de material para el concurso de bateristas patrocinado por Chad Smith, con el apoyo de Sabian Cymbals®. Los videos deben ser subidos a su <a href="https://www.instagram.com/chadsmithofficial/">instagram</a>.</p>
                         <p><a href="#">mas info</a></p>
                         <p class="card-text"><small class="text-muted"> <a href="#" class="text-italic text-decoration-none text-secondary"><i>chad smith</i></a><a href="#" class="text-italic text-decoration-none text-secondary"><i> contest</i></a><a href="#" class="text-italic text-decoration-none text-secondary"><i> drummer</i></a></small></p>
                     </div>
-                    <img src="fotos/imagenes shows/imagen show 1.jpg" class="card-img-top" alt="...">
+                    <img src="fotos/fotos noticias/sabian.jpg" class="card-img-top" alt="...">
                 </div>
                 <div class="card border-warning">
-                    <img src="fotos/imagenes shows/imagen show 1.jpg" class="card-img-top" alt="...">
+                    <img src="fotos/fotos noticias/thom-yorke-20k.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-secondary">Radiohead x RHCP</h5>
-                        <p class="card-text text-warning">Thom Yorke anunció en su <a href="https://www.wasteheadquarters.com/">web oficial</a> una colaboración entre Radiohead y RHCP. Durante la gira por EEUU se escuchó a Josh Klinghoffer interpretar varias piezas de Yorke en vivo, de
+                        <h5 class="card-title text-secondary">Klinghoffer x Yorke</h5>
+                        <p class="card-text text-warning">Thom Yorke anunció en la web oficial de <a href="https://www.wasteheadquarters.com/">Radiohead</a> una colaboración entre Radiohead y Josh Klinghoffer. Durante la gira por EEUU se escuchó a Josh interpretar varias piezas de Thom en vivo, de
                             quien se declaró gran admirador.</p>
                         <p><a href="#">mas info</a></p>
                         <p class="card-text"><small class="text-muted"> <a href="#" class="text-italic text-decoration-none text-secondary"><i>radiohead</i></a><a href="#" class="text-italic text-decoration-none text-secondary"><i> tom yorke</i></a><a href="#" class="text-italic text-decoration-none text-secondary"><i> josh klinghoffer</i></a></small></p>
@@ -649,13 +649,11 @@
                             del 28.</p>
                         <p><a href="#">mas info</a></p>
                         <p class="card-text"><small class="text-muted"> <a href="#" class="text-italic text-decoration-none text-secondary"><i>gira</i></a><a href="#" class="text-italic text-decoration-none text-secondary"><i> europa</i></a><a href="#" class="text-italic text-decoration-none text-secondary"><i> rock in roma</i></a></small></p>
-                        <img src="fotos/imagenes shows/imagen show 1.jpg" class="card-img-top" alt="...">
+                        <img src="fotos/fotos noticias/fondo-shows.jpg" class="card-img-top" alt="...">
                     </div>
                 </div>
             </div>
         </div>
-
-
     </section>
 
     <!-- fin noticias -->
@@ -663,7 +661,7 @@
     <!-- contacto -->
 
     <section class="seccion-contacto container-fluid" id="contacto">
-        <h1 class="text-center text-white titulo" style="padding-top: 100px; margin-bottom: 100px">CONTACTO</h1>
+        <h1 class="text-center text-white titulo" style="padding-top: 100px; margin-bottom: 100px"><img src="fotos/faviconeditado.ico" alt="">CONTACTO</h1>
         <form class="container p-0">
             <div class="form-group">
                 <label for="exampleFormControlInput1">Tu nombre</label>
@@ -697,12 +695,9 @@
                 <a class="btn fa fa-instagram text-white fa-lg ml-2" href="https://www.instagram.com/chilipeppers/"></a>
                 <a class="btn fa fa-facebook text-white fa-lg ml-2" href="https://es-la.facebook.com/ChiliPeppers"></a>
             </div>
-            <div class="footer-info d-flex flex-row justify-content-around pt-4">
+            <div class="footer-info d-flex flex-row justify-content-around text-center pt-4">
                 <div class="text-white">
                     <h6>Terminos y condiciones</h6>
-                </div>
-                <div class="text-white">
-                    <h6>Acerca de</h6>
                 </div>
                 <div class="text-white">
                     <h6>Soporte</h6>

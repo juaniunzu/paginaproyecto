@@ -40,6 +40,11 @@ nav {
 }
 
 /*home*/
+
+.parafondo .div .h3 .img{
+    
+}
+
 .tipografia {
     font-family: 'Bowlby One SC', cursive;
     list-style: none;
@@ -73,7 +78,8 @@ nav {
 }
 
 .tipografia2 {
-    font-family: 'Bowlby One SC', cursive; 
+    font-family: 'Bowlby One SC', cursive;
+    justify-content: center;
 }
 
 .containerhome {
@@ -229,6 +235,13 @@ nav {
     font-family: 'Bowlby One SC', cursive;
 }
 
+@media only screen and (max-width:576px){
+    .seccion-shows{
+        background-image: none;
+        background-color: #FFA500;
+        
+    }
+}
 
 /*fin shows*/
 
@@ -241,6 +254,15 @@ nav {
     background-size: 100% 100%;
     font-family: 'Bowlby One SC', cursive;
 }
+
+@media only screen and (max-width:576px){
+    .seccion-discografia{
+        background-image: none;
+        background-color: rgb(151, 149, 149);
+        
+    }
+}
+
 /*fin discografia*/
 
 /*media*/
@@ -251,6 +273,15 @@ nav {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+@media only screen and (max-width:576px){
+    .seccion-media{
+        background-image: none;
+        background-color: rgb(238, 128, 183);
+        
+    }
+}
+
 /*media*/
 
 /*noticias*/
@@ -262,6 +293,15 @@ nav {
     background-size: 100% 100%;
     font-family: 'Montserrat', sans-serif;
 }
+
+@media only screen and (max-width:576px){
+    .seccion-noticias{
+        background-image: none;
+        background-color: rgb(238, 238, 70);
+        
+    }
+}
+
 /*fin noticias*/
 
 .titulo {
@@ -280,6 +320,15 @@ nav {
 .seccion-contacto .form-group .form-control{
     font-family: 'Montserrat', sans-serif; 
 }
+
+@media only screen and (max-width:576px){
+    .seccion-contacto{
+        background-image: none;
+        background-color: rgb(238, 238, 70);
+        
+    }
+}
+
 /*fin contacto*/
 
 
@@ -335,7 +384,7 @@ nav {
 }
 
 .box16 .title {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     margin: 0 0 10px
@@ -426,11 +475,6 @@ nav {
     color: #94a5ac;
 }
 /*fin footer*/
-
-dia-fecha
-marcador + lugar
-pais + hora
-entradas
 
 .dia-fecha{
     -webkit-box-flex: 0;
